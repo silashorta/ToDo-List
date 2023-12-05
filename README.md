@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Projeto ToDo List com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto é uma aplicação web de lista de tarefas (ToDo List) desenvolvida utilizando a biblioteca React. A aplicação permite criar diferentes listas de tarefas, cada uma associada a uma categoria específica, como "Trabalho", "Pessoal", "Para Fazer", e "Outros".
 
-In the project directory, you can run:
+Cada lista de tarefas é representada por um card, apresentando um título, uma cor de fundo distinta e uma área para adicionar novas tarefas. As tarefas são exibidas em uma lista abaixo do formulário de adição, e cada tarefa pode ser removida individualmente.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A biblioteca JavaScript para construção de interfaces de usuário, proporcionando uma estrutura eficiente para o desenvolvimento de componentes reutilizáveis.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **CSS**: Utilizado para estilizar a aplicação e proporcionar uma aparência visual agradável.
 
-### `npm test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Adição de Tarefas**: Cada card possui um formulário que permite adicionar novas tarefas associadas a essa lista específica.
 
-### `npm run build`
+2. **Remoção de Tarefas**: Cada tarefa exibida pode ser removida individualmente ao clicar no botão "X".
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Listas Distintas**: Cada card representa uma lista de tarefas distinta, mantendo suas próprias tarefas independentes das outras listas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como Executar o Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório para o seu ambiente local:
 
-### `npm run eject`
+```bash
+git clone https://github.com/seu-usuario/todo-list-react.git
+cd todo-list-react
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Instale as dependências do projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Inicie a aplicação:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+A aplicação estará acessível no navegador no endereço [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Estrutura do Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **src/components**: Contém os componentes da aplicação, como `Cards`, `TodoForm`, e `TodoList`.
+- **src/App.js**: Componente principal da aplicação que renderiza o componente `Cards`.
+- **src/App.css**: Estilo global da aplicação.
+- **public**: Contém o arquivo HTML principal (`public/index.html`).
 
-### Code Splitting
+# Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contribuições para melhorias e correções são bem-vindas! Sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/todo-list-react/issues) ou enviar um [pull request](https://github.com/seu-usuario/todo-list-react/pulls).
 
-### Analyzing the Bundle Size
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Este projeto é licenciado sob a MIT License - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--- 
