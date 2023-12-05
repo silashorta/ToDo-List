@@ -1,0 +1,25 @@
+.title{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.card-main{
+    min-width: 35vw;
+}
+
+.card-main h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.task{
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .card-main{
+        min-width: 90vw;
+    }
+    
+}
